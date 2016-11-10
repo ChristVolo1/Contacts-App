@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contacts Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="contacts.css">
+  </head>
+  <body>
+    <div class="container">
+    <div class="col-md-offset-2 col-md-4 clearfix">
+      <h2>Contacts Home</h2> <a href="addContact.html">Add New Contact</a>
+    <table id = "contactsTable" class="table table-striped">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email Address</th>
+          <th>Phone Number</th>
+        </tr>
+      </thead>
+      <tbody id="contactsData">
+        <!--Data will be added to local storage in javascript-->
+      </tbody>
+    </table>
+  </div>
+</div>
+  <script type="text/javascript" src="contacts.js"></script>
+  </body>
+</html>
